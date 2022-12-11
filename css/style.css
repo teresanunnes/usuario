@@ -1,0 +1,186 @@
+    	body {
+  		font: 75%/1.6  "Lucida Sans Unicode";
+  		background-color:#D3D3D3;
+  		margin:0;
+
+		}
+		#content{
+			width: 60%;
+			background-color: #fff;
+			margin-left: 20%;
+			margin-top:0;
+		}
+		h2{
+			margin-top:0;
+			font-size: 20px;
+			font-family: "Lucida Sans Unicode";
+			text-align: center;
+		}
+
+		.log{
+			width: 100%;
+			height: auto;
+		}
+
+		#add{
+			text-indent:0;
+			display:inline-block;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:15px;
+			font-weight:bold;
+			width:100px;
+			text-decoration:none;
+			text-align:center;
+			background-color:#77d42a;
+			text-shadow:1px 1px 0px #aade7c;
+			border:1px solid #268a16;
+			margin-top: 5px;
+			margin-bottom: 5px; 
+		}
+		#add:hover{
+			background-color: #fff;
+			color:#4CAF50;
+		}
+
+		a.sair {
+			background-color:#f24537;
+			text-indent:0;
+			border:1px solid #d02718;
+			display:inline-block;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:15px;
+			font-weight:bold;
+			width:100px;
+			text-decoration:none;
+			text-align:center;
+			text-shadow:1px 1px 0px #810e05;
+			margin-top: 5px;
+			margin-bottom: 5px; 
+		}
+		.sair:hover{
+			background-color: #ffffff;
+			color: #f24537;
+		}
+		div {
+			margin-top: 10px;
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			padding-top:10px;
+		
+		}
+
+		form p{
+			color:#000;
+			text-align: center;
+			font-size: 20px;
+			font-family: "Lucida Sans Unicode";
+			margin: 0;
+		}
+		input[type=text], select {
+	    	width: 100%;
+	    	padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		}
+		.file{
+		    width: 100px;
+		    height: 100px;
+		    background-color: #fff;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    margin-left:40%;
+		}
+		.upload{
+			margin-top:20px;
+			margin-left:0;
+			width: 60px;
+			height: 48px;
+			background-image: url('../img/hover.jpg');
+			position: relative;
+			background-repeat: no-repeat;
+		}
+		.upload:hover{
+			background-image: url('../img/upload.jpg');
+		}
+		input[type=file] {
+			width: 100px;
+			height: 100px;
+			opacity: 0;
+		}
+		input[type=submit] {
+		    width: 100%;
+		    background-color: #4CAF50;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		    background-color: #45a049;
+		}
+
+		table {
+		  border-collapse: collapse;
+		  width: 100%;
+		  border: 1px solid #666;
+		  margin-top:10px; 
+		}
+
+		tr:hover {
+		  background-color:#3d80df;
+		  color: #fff;
+		}
+		thead {
+	  		background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+	  		border-top: 1px solid #a5a5a5;
+	  		border-bottom: 1px solid #a5a5a5;
+		}
+
+		thead tr:hover {
+	  		background-color: transparent;
+	  		color: inherit;
+		}
+		tr:nth-child(even) {
+		    background-color: #C0C0C0;
+		}
+		th {
+		  font-weight: normal;
+		  text-align: left;
+		}
+		th, td {
+		  padding: 0.1em 1em;
+		}
+		td a{
+			text-decoration: none;
+			color:#000;
+			border: none;
+		}
+		td a:hover{
+			color:#fff;
+		}
+		.options{
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 300;
+			font-size: 25px;
+			line-height: 30px;
+			text-align: center;
+			color: rgba(0, 0, 0, 0.8);
+		}
+		.description{
+			font-family: 'Lato';
+			font-size: 16.2px;
+			font-weight: 700;
+			line-height: 20px;
+			color: #3F3F3F;
+		}
